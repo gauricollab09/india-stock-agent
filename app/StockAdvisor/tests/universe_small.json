@@ -1,0 +1,12 @@
+{
+  "as_of": "2026-09-25",
+  "source": "tests/universe_small.json",
+  "stocks": [
+    {"ticker": "HDFCBANK.NS", "symbol": "HDFCBANK", "name": "HDFC Bank Ltd.", "sector": "Financial Services", "isin": "INE040A01034"},
+    {"ticker": "ICICIBANK.NS", "symbol": "ICICIBANK", "name": "ICICI Bank Ltd.", "sector": "Financial Services", "isin": "INE090A01021"},
+    {"ticker": "INFY.NS", "symbol": "INFY", "name": "Infosys Ltd.", "sector": "Information Technology", "isin": "INE009A01021"},
+    {"ticker": "TCS.NS", "symbol": "TCS", "name": "Tata Consultancy Services Ltd.", "sector": "Information Technology", "isin": "INE467B01029"},
+    {"ticker": "RELIANCE.NS", "symbol": "RELIANCE", "name": "Reliance Industries Ltd.", "sector": "Oil Gas & Consumable Fuels", "isin": "INE002A01018"},
+    {"ticker": "SUNPHARMA.NS", "symbol": "SUNPHARMA", "name": "Sun Pharmaceutical Industries Ltd.", "sector": "Healthcare", "isin": "INE044A01036"}
+  ]
+}

@@ -39,3 +39,7 @@ target-version = "py312"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]
+
+[tool.ruff.lint.per-file-ignores]
+"stock_advisor/prompts.py" = ["E501"]
+"stock_advisor/tools.py" = ["E501"]
