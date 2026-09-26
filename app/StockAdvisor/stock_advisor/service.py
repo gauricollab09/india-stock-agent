@@ -77,9 +77,7 @@ def recommend(
     try:
         ctx = build_market_context(universe, source)
     except MarketDataError as exc:
-        return error_response(
-            ErrorType.market_data_unavailable, f"market data unavailable: {exc}"
-        )
+        return error_response(ErrorType.market_data_unavailable, f"market data unavailable: {exc}")
     if len(ctx.missing) * 2 > len(universe.stocks):
         return error_response(
             ErrorType.market_data_unavailable,
