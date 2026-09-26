@@ -67,7 +67,7 @@ expected shape.
   "risk_tolerance": "moderate",
   "goals": "long-term growth, some dividend income",
   "preferred_sectors": ["Information Technology", "Financial Services"],
-  "excluded_sectors": ["Tobacco"],
+  "excluded_sectors": ["Metals & Mining"],
   "max_stocks": 8,
   "notes": "avoid heavily indebted companies"
 }
