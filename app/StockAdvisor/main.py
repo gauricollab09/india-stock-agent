@@ -9,6 +9,7 @@ from bedrock_agentcore.runtime import BedrockAgentCoreApp
 from stock_advisor import service
 from stock_advisor.config import Settings
 from stock_advisor.llm import make_bedrock_model
+from stock_advisor.schemas import ErrorType, error_response
 
 try:  # observability is optional locally
     from opentelemetry.instrumentation.langchain import LangchainInstrumentor
@@ -33,7 +34,17 @@ def get_model():
 @app.entrypoint
 def handler(payload, context):
     app.logger.info("recommend request received")
-    result = service.recommend(payload, model=get_model(), settings=settings)
+    try:
+        model = get_model()
+    except Exception as exc:  # noqa: BLE001 - credentials/config problems must not 500
+        app.logger.warning("could not create the Bedrock model: %s", exc)
+        return error_response(
+            ErrorType.model_unavailable,
+            "could not create the Bedrock client; check AWS credentials, AWS_REGION and "
+            "Bedrock model access",
+            [str(exc).splitlines()[0]],
+        )
+    result = service.recommend(payload, model=model, settings=settings)
     app.logger.info("recommend request finished: %s", "error" if "error" in result else "ok")
     return result
 

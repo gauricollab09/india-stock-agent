@@ -54,6 +54,32 @@ agentcore remove all && agentcore deploy -y    # tear down
 Before real use, refresh the universe (the Nifty 50 changes on 2026-09-30):
 `uv run python scripts/refresh_universe.py`.
 
+## Invoke the deployed agent
+
+```bash
+cd app/StockAdvisor
+export AGENT_RUNTIME_ARN=arn:aws:bedrock-agentcore:ap-south-1:<account>:runtime/<id>   # from `agentcore status`
+uv run python scripts/invoke.py examples/request.json            # or --arn ... --region ... --session-id ...
+```
+
+Prints the portfolio JSON; exits 1 when the response is an `error` object.
+
+## Live smoke test
+
+```bash
+cd app/StockAdvisor
+RUN_LIVE=1 uv run pytest -m live          # needs AWS credentials with Bedrock access; costs a few rupees
+```
+
+Skipped by default (`uv run pytest` reports it as skipped).
+
+## Evals
+
+```bash
+cd app/StockAdvisor
+uv run python -m evals.run --dry-run      # harness check with the fake model; drop --dry-run for a real run
+```
+
 ## Status
 
 First version (2026-09-26): data sources (yfinance + fixture), rules, allocation, analytics,
