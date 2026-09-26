@@ -77,7 +77,9 @@ def recommend(
     try:
         ctx = build_market_context(universe, source)
     except MarketDataError as exc:
-        return error_response(ErrorType.market_data_unavailable, f"market data unavailable: {exc}")
+        return error_response(
+            ErrorType.market_data_unavailable, f"market data unavailable: {exc}"
+        )
     if len(ctx.missing) * 2 > len(universe.stocks):
         return error_response(
             ErrorType.market_data_unavailable,
@@ -98,7 +100,10 @@ def recommend(
         )
     except ClientError as exc:
         code = exc.response.get("Error", {}).get("Code", "ClientError")
-        msg = f"Bedrock call failed ({code}). If AccessDenied, enable the model in the Bedrock console."
+        msg = (
+            f"Bedrock call failed ({code}). "
+            "If AccessDenied, enable the model in the Bedrock console."
+        )
         return error_response(ErrorType.model_unavailable, msg, [str(exc)])
     except BotoCoreError as exc:
         return error_response(ErrorType.model_unavailable, f"Bedrock unreachable: {exc}")
