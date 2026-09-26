@@ -1,0 +1,452 @@
+{
+  "ADANIENT.NS": {
+    "name": "ADANI ENTERPRISES LIMITED",
+    "trailing_pe": 50.75705,
+    "market_cap": 4150102065152.0,
+    "dividend_yield_pct": 0.04,
+    "roe": null,
+    "debt_to_equity": 119.56,
+    "beta": 0.797
+  },
+  "ADANIPORTS.NS": {
+    "name": "ADANI PORT & SEZ LTD",
+    "trailing_pe": 30.532785,
+    "market_cap": 4119478665216.0,
+    "dividend_yield_pct": 0.42,
+    "roe": null,
+    "debt_to_equity": 64.051,
+    "beta": 0.493
+  },
+  "APOLLOHOSP.NS": {
+    "name": "APOLLO HOSPITALS ENTER. L",
+    "trailing_pe": 61.34999,
+    "market_cap": 1278101815296.0,
+    "dividend_yield_pct": 0.22,
+    "roe": null,
+    "debt_to_equity": 85.146,
+    "beta": 0.197
+  },
+  "ASIANPAINT.NS": {
+    "name": "ASIAN PAINTS LIMITED",
+    "trailing_pe": 49.26426,
+    "market_cap": 2342926680064.0,
+    "dividend_yield_pct": 1.13,
+    "roe": null,
+    "debt_to_equity": 17.847,
+    "beta": 0.282
+  },
+  "AXISBANK.NS": {
+    "name": "AXIS BANK LIMITED",
+    "trailing_pe": 14.409996,
+    "market_cap": 3806032560128.0,
+    "dividend_yield_pct": 0.08,
+    "roe": 0.13352999,
+    "debt_to_equity": null,
+    "beta": 0.42
+  },
+  "BAJAJ-AUTO.NS": {
+    "name": "BAJAJ AUTO LIMITED",
+    "trailing_pe": 26.809734,
+    "market_cap": 3100061990912.0,
+    "dividend_yield_pct": 1.33,
+    "roe": null,
+    "debt_to_equity": 56.352,
+    "beta": 0.635
+  },
+  "BAJAJFINSV.NS": {
+    "name": "BAJAJ FINSERV LTD.",
+    "trailing_pe": 27.85467,
+    "market_cap": 2834033541120.0,
+    "dividend_yield_pct": 0.07,
+    "roe": null,
+    "debt_to_equity": 256.404,
+    "beta": 0.371
+  },
+  "BAJFINANCE.NS": {
+    "name": "BAJAJ FINANCE LIMITED",
+    "trailing_pe": 32.535904,
+    "market_cap": 6201628688384.0,
+    "dividend_yield_pct": 0.54,
+    "roe": null,
+    "debt_to_equity": 314.833,
+    "beta": 0.308
+  },
+  "BEL.NS": {
+    "name": "BHARAT ELECTRONICS LTD",
+    "trailing_pe": 46.963005,
+    "market_cap": 2876763537408.0,
+    "dividend_yield_pct": 0.64,
+    "roe": null,
+    "debt_to_equity": 0.273,
+    "beta": 0.284
+  },
+  "BHARTIARTL.NS": {
+    "name": "BHARTI AIRTEL LIMITED",
+    "trailing_pe": 37.595284,
+    "market_cap": 11138500657152.0,
+    "dividend_yield_pct": 1.34,
+    "roe": 0.20151,
+    "debt_to_equity": 100.415,
+    "beta": -0.004
+  },
+  "CIPLA.NS": {
+    "name": "CIPLA LTD",
+    "trailing_pe": 33.5579,
+    "market_cap": 1130776363008.0,
+    "dividend_yield_pct": 0.93,
+    "roe": null,
+    "debt_to_equity": 1.778,
+    "beta": 0.078
+  },
+  "COALINDIA.NS": {
+    "name": "COAL INDIA LTD",
+    "trailing_pe": 8.477915,
+    "market_cap": 2625938653184.0,
+    "dividend_yield_pct": 4.93,
+    "roe": null,
+    "debt_to_equity": 11.629,
+    "beta": -0.047
+  },
+  "DRREDDY.NS": {
+    "name": "DR. REDDY S LABORATORIES",
+    "trailing_pe": 30.213837,
+    "market_cap": 1000419295232.0,
+    "dividend_yield_pct": 0.67,
+    "roe": 0.088369995,
+    "debt_to_equity": 18.605,
+    "beta": 0.242
+  },
+  "EICHERMOT.NS": {
+    "name": "EICHER MOTORS LTD",
+    "trailing_pe": 34.96437,
+    "market_cap": 2020479729664.0,
+    "dividend_yield_pct": 1.11,
+    "roe": null,
+    "debt_to_equity": 2.048,
+    "beta": 0.224
+  },
+  "ETERNAL.NS": {
+    "name": "ETERNAL LIMITED",
+    "trailing_pe": 712.7659,
+    "market_cap": 3083806703616.0,
+    "dividend_yield_pct": null,
+    "roe": null,
+    "debt_to_equity": 14.826,
+    "beta": 0.234
+  },
+  "GRASIM.NS": {
+    "name": "GRASIM INDUSTRIES LTD",
+    "trailing_pe": 38.02431,
+    "market_cap": 2164304510976.0,
+    "dividend_yield_pct": 0.31,
+    "roe": null,
+    "debt_to_equity": 135.044,
+    "beta": 0.365
+  },
+  "HCLTECH.NS": {
+    "name": "HCL TECHNOLOGIES LTD",
+    "trailing_pe": 19.57063,
+    "market_cap": 3403854381056.0,
+    "dividend_yield_pct": 4.77,
+    "roe": 0.24067,
+    "debt_to_equity": 7.058,
+    "beta": 0.001
+  },
+  "HDFCBANK.NS": {
+    "name": "HDFC BANK LTD",
+    "trailing_pe": 16.078688,
+    "market_cap": 11341831077888.0,
+    "dividend_yield_pct": 1.77,
+    "roe": 0.13838,
+    "debt_to_equity": null,
+    "beta": 0.404
+  },
+  "HDFCLIFE.NS": {
+    "name": "HDFC LIFE INS CO LTD",
+    "trailing_pe": 57.467533,
+    "market_cap": 1153358102528.0,
+    "dividend_yield_pct": 0.4,
+    "roe": 0.10828,
+    "debt_to_equity": 15.885,
+    "beta": 0.499
+  },
+  "HINDALCO.NS": {
+    "name": "HINDALCO  INDUSTRIES  LTD",
+    "trailing_pe": 13.261844,
+    "market_cap": 2168780881920.0,
+    "dividend_yield_pct": 0.51,
+    "roe": null,
+    "debt_to_equity": 72.598,
+    "beta": 0.925
+  },
+  "HINDUNILVR.NS": {
+    "name": "HINDUSTAN UNILEVER LTD.",
+    "trailing_pe": 42.91805,
+    "market_cap": 4565021229056.0,
+    "dividend_yield_pct": 2.26,
+    "roe": null,
+    "debt_to_equity": 3.016,
+    "beta": 0.321
+  },
+  "ICICIBANK.NS": {
+    "name": "ICICI BANK LTD.",
+    "trailing_pe": 17.231169,
+    "market_cap": 9524314374144.0,
+    "dividend_yield_pct": 0.9,
+    "roe": 0.16073999,
+    "debt_to_equity": null,
+    "beta": 0.26
+  },
+  "INDIGO.NS": {
+    "name": "INTERGLOBE AVIATION LTD",
+    "trailing_pe": null,
+    "market_cap": 1910132965376.0,
+    "dividend_yield_pct": 0.19,
+    "roe": null,
+    "debt_to_equity": 1112.706,
+    "beta": 0.617
+  },
+  "INFY.NS": {
+    "name": "INFOSYS LIMITED",
+    "trailing_pe": 13.088198,
+    "market_cap": 4051153715200.0,
+    "dividend_yield_pct": 5.0,
+    "roe": 0.32,
+    "debt_to_equity": 9.541,
+    "beta": 0.108
+  },
+  "ITC.NS": {
+    "name": "ITC LTD",
+    "trailing_pe": 16.91824,
+    "market_cap": 3370709155840.0,
+    "dividend_yield_pct": 5.95,
+    "roe": null,
+    "debt_to_equity": 3.293,
+    "beta": -0.093
+  },
+  "JIOFIN.NS": {
+    "name": "JIO FIN SERVICES LTD",
+    "trailing_pe": 70.496895,
+    "market_cap": 1498913177600.0,
+    "dividend_yield_pct": 0.26,
+    "roe": null,
+    "debt_to_equity": 16.286,
+    "beta": 0.49
+  },
+  "JSWSTEEL.NS": {
+    "name": "JSW STEEL LIMITED",
+    "trailing_pe": 12.562715,
+    "market_cap": 3117129138176.0,
+    "dividend_yield_pct": 0.56,
+    "roe": null,
+    "debt_to_equity": 95.374,
+    "beta": 0.627
+  },
+  "KOTAKBANK.NS": {
+    "name": "KOTAK MAHINDRA BANK LTD",
+    "trailing_pe": 19.803923,
+    "market_cap": 4018944081920.0,
+    "dividend_yield_pct": 0.16,
+    "roe": null,
+    "debt_to_equity": null,
+    "beta": 0.285
+  },
+  "LT.NS": {
+    "name": "LARSEN & TOUBRO LTD.",
+    "trailing_pe": 32.154293,
+    "market_cap": 5333131984896.0,
+    "dividend_yield_pct": 0.98,
+    "roe": null,
+    "debt_to_equity": 97.64,
+    "beta": 0.507
+  },
+  "M&M.NS": {
+    "name": "MAHINDRA & MAHINDRA LTD",
+    "trailing_pe": 18.484682,
+    "market_cap": 3644313305088.0,
+    "dividend_yield_pct": 1.09,
+    "roe": null,
+    "debt_to_equity": 125.278,
+    "beta": 0.28
+  },
+  "MARUTI.NS": {
+    "name": "MARUTI SUZUKI INDIA LTD.",
+    "trailing_pe": 26.31579,
+    "market_cap": 3793266933760.0,
+    "dividend_yield_pct": 1.16,
+    "roe": null,
+    "debt_to_equity": 0.096,
+    "beta": 0.228
+  },
+  "MAXHEALTH.NS": {
+    "name": "MAX HEALTHCARE INS LTD",
+    "trailing_pe": 68.00805,
+    "market_cap": 986936639488.0,
+    "dividend_yield_pct": 0.2,
+    "roe": null,
+    "debt_to_equity": 32.367,
+    "beta": 0.113
+  },
+  "NESTLEIND.NS": {
+    "name": "NESTLE INDIA LIMITED",
+    "trailing_pe": 68.50679,
+    "market_cap": 2627521216512.0,
+    "dividend_yield_pct": 0.88,
+    "roe": null,
+    "debt_to_equity": 8.621,
+    "beta": 0.419
+  },
+  "NTPC.NS": {
+    "name": "NTPC LTD",
+    "trailing_pe": 9.969476,
+    "market_cap": 3166931255296.0,
+    "dividend_yield_pct": 3.78,
+    "roe": null,
+    "debt_to_equity": 128.345,
+    "beta": 0.287
+  },
+  "ONGC.NS": {
+    "name": "OIL AND NATURAL GAS CORP.",
+    "trailing_pe": 6.8167634,
+    "market_cap": 2967184605184.0,
+    "dividend_yield_pct": 6.15,
+    "roe": null,
+    "debt_to_equity": 42.548,
+    "beta": 0.097
+  },
+  "POWERGRID.NS": {
+    "name": "POWER GRID CORP. LTD.",
+    "trailing_pe": 13.191385,
+    "market_cap": 2506512662528.0,
+    "dividend_yield_pct": 3.8,
+    "roe": null,
+    "debt_to_equity": 150.813,
+    "beta": 0.156
+  },
+  "RELIANCE.NS": {
+    "name": "RELIANCE INDUSTRIES LTD",
+    "trailing_pe": 22.222223,
+    "market_cap": 16590810644480.0,
+    "dividend_yield_pct": 0.49,
+    "roe": null,
+    "debt_to_equity": 36.653,
+    "beta": 0.152
+  },
+  "SBILIFE.NS": {
+    "name": "SBI LIFE INSURANCE CO LTD",
+    "trailing_pe": 67.10324,
+    "market_cap": 1747931627520.0,
+    "dividend_yield_pct": 0.15,
+    "roe": 0.13703,
+    "debt_to_equity": null,
+    "beta": 0.351
+  },
+  "SBIN.NS": {
+    "name": "STATE BANK OF INDIA",
+    "trailing_pe": 10.515618,
+    "market_cap": 9073697226752.0,
+    "dividend_yield_pct": 1.77,
+    "roe": 0.15177,
+    "debt_to_equity": null,
+    "beta": 0.386
+  },
+  "SHRIRAMFIN.NS": {
+    "name": "SHRIRAM FINANCE LIMITED",
+    "trailing_pe": 17.545006,
+    "market_cap": 2339162030080.0,
+    "dividend_yield_pct": 1.39,
+    "roe": 0.18495001,
+    "debt_to_equity": 276.215,
+    "beta": 0.606
+  },
+  "SUNPHARMA.NS": {
+    "name": "SUN PHARMACEUTICAL IND L",
+    "trailing_pe": 36.764587,
+    "market_cap": 4444048064512.0,
+    "dividend_yield_pct": 0.86,
+    "roe": null,
+    "debt_to_equity": 5.517,
+    "beta": 0.121
+  },
+  "TATACONSUM.NS": {
+    "name": "TATA CONSUMER PRODUCT LTD",
+    "trailing_pe": 60.061085,
+    "market_cap": 973063192576.0,
+    "dividend_yield_pct": 1.02,
+    "roe": null,
+    "debt_to_equity": 12.159,
+    "beta": 0.405
+  },
+  "TATASTEEL.NS": {
+    "name": "TATA STEEL LIMITED",
+    "trailing_pe": 21.287657,
+    "market_cap": 2344797077504.0,
+    "dividend_yield_pct": 2.13,
+    "roe": null,
+    "debt_to_equity": 89.017,
+    "beta": 0.857
+  },
+  "TCS.NS": {
+    "name": "TATA CONSULTANCY SERV LT",
+    "trailing_pe": 15.128615,
+    "market_cap": 7532857786368.0,
+    "dividend_yield_pct": 3.12,
+    "roe": 0.47743,
+    "debt_to_equity": 10.211,
+    "beta": 0.166
+  },
+  "TECHM.NS": {
+    "name": "TECH MAHINDRA LIMITED",
+    "trailing_pe": 26.73575,
+    "market_cap": 1371409481728.0,
+    "dividend_yield_pct": 3.29,
+    "roe": null,
+    "debt_to_equity": 7.269,
+    "beta": 0.158
+  },
+  "TITAN.NS": {
+    "name": "TITAN COMPANY LIMITED",
+    "trailing_pe": 74.62185,
+    "market_cap": 4333633273856.0,
+    "dividend_yield_pct": 0.31,
+    "roe": null,
+    "debt_to_equity": 195.001,
+    "beta": 0.184
+  },
+  "TMPV.NS": {
+    "name": "TATA MOTORS PASS VEH LTD",
+    "trailing_pe": null,
+    "market_cap": 1069725122560.0,
+    "dividend_yield_pct": 1.03,
+    "roe": null,
+    "debt_to_equity": 70.364,
+    "beta": 0.778
+  },
+  "TRENT.NS": {
+    "name": "TRENT LTD",
+    "trailing_pe": 78.74041,
+    "market_cap": 1423356985344.0,
+    "dividend_yield_pct": 0.15,
+    "roe": null,
+    "debt_to_equity": 36.034,
+    "beta": 0.371
+  },
+  "ULTRACEMCO.NS": {
+    "name": "ULTRATECH CEMENT LIMITED",
+    "trailing_pe": 38.46154,
+    "market_cap": 3281462231040.0,
+    "dividend_yield_pct": 2.15,
+    "roe": null,
+    "debt_to_equity": 29.432,
+    "beta": 0.495
+  },
+  "WIPRO.NS": {
+    "name": "WIPRO LTD",
+    "trailing_pe": 13.01746,
+    "market_cap": 1622705700864.0,
+    "dividend_yield_pct": 4.88,
+    "roe": 0.16128999,
+    "debt_to_equity": 27.398,
+    "beta": 0.393
+  }
+}

@@ -94,7 +94,8 @@ def recommend(
     except GraphRecursionError:
         return error_response(
             ErrorType.no_valid_portfolio,
-            f"the agent could not produce a valid portfolio within {settings.max_agent_steps} steps",
+            "the agent could not produce a valid portfolio within "
+            f"{settings.max_agent_steps} steps",
         )
     except ClientError as exc:
         code = exc.response.get("Error", {}).get("Code", "ClientError")
