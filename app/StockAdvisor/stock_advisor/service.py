@@ -60,7 +60,9 @@ def recommend(
     try:
         req = parse_payload(payload)
     except ValidationError as exc:
-        return error_response(ErrorType.invalid_request, "invalid request", _validation_details(exc))
+        return error_response(
+            ErrorType.invalid_request, "invalid request", _validation_details(exc)
+        )
     except ValueError as exc:
         return error_response(ErrorType.invalid_request, str(exc))
 

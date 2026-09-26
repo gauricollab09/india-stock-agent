@@ -9,9 +9,13 @@ from stock_advisor.portfolio import evaluate, evaluation_to_tool_result
 from stock_advisor.schemas import PickInput, Requirements
 
 
-def make_tools(ctx: MarketContext, requirements: Requirements, excluded: Collection[str]) -> list[BaseTool]:
+def make_tools(
+    ctx: MarketContext, requirements: Requirements, excluded: Collection[str]
+) -> list[BaseTool]:
     banned = set(excluded)
-    allowed = [s for s in ctx.universe.stocks if s.sector not in banned and s.ticker not in ctx.missing]
+    allowed = [
+        s for s in ctx.universe.stocks if s.sector not in banned and s.ticker not in ctx.missing
+    ]
     allowed_tickers = {s.ticker for s in allowed}
 
     @tool

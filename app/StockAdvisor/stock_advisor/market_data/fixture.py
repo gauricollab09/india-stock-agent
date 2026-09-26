@@ -34,9 +34,7 @@ def write_fixture(
         json.dumps({t: dataclasses.asdict(f) for t, f in fundamentals.items()}, indent=2),
         encoding="utf-8",
     )
-    (directory / META_FILE).write_text(
-        json.dumps({"as_of": as_of.isoformat()}), encoding="utf-8"
-    )
+    (directory / META_FILE).write_text(json.dumps({"as_of": as_of.isoformat()}), encoding="utf-8")
 
 
 class FixtureMarketData:

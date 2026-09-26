@@ -15,7 +15,9 @@ def test_ping():
 
 def test_invocations_end_to_end(monkeypatch, settings, universe, source):
     monkeypatch.setattr(main, "settings", settings)
-    monkeypatch.setattr(main, "get_model", lambda: ScriptedChatModel(responses=standard_script(PICKS)))
+    monkeypatch.setattr(
+        main, "get_model", lambda: ScriptedChatModel(responses=standard_script(PICKS))
+    )
     monkeypatch.setattr(main.service, "load_universe", lambda: universe)
     monkeypatch.setattr(main.service, "get_source", lambda s: source)
     r = TestClient(main.app).post("/invocations", json={"prompt": json.dumps(REQ)})
